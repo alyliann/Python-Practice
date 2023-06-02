@@ -1,4 +1,4 @@
-#Write a program that takes a list called my_list (it could be a list of any data type) and prints the list three times if the length of the list is less than 5. If the length of my_list is greater than or equal to 5, then print the list one time.
+# Write a program that takes a list called my_list (it could be a list of any data type) and prints the list three times if the length of the list is less than 5. If the length of my_list is greater than or equal to 5, then print the list one time.
 
 # FREEZE CODE BEGINS
 import sys

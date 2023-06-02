@@ -1,4 +1,4 @@
-#Write a program that takes a list called numbers that contains integers in a sequence (the sequence is always increasing, never decreasing). Your program should add the next two numbers in the sequence, and then print the list.
+# Write a program that takes a list called numbers that contains integers in a sequence (the sequence is always increasing, never decreasing). Your program should add the next two numbers in the sequence, and then print the list.
 
 # FREEZE CODE BEGINS
 import sys

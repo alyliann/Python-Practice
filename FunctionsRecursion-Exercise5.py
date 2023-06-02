@@ -1,4 +1,4 @@
-#Write a recursive function called get_max that takes a list of numbers as a parameter. Return the largest number in the list.
+# Write a recursive function called get_max that takes a list of numbers as a parameter. Return the largest number in the list.
 
 def get_max(nums):
   if len(nums) == 1:

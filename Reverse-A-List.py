@@ -1,4 +1,4 @@
-#Reverse the passed list "in place".
+# Reverse the passed list "in place".
 
 def reverse_list(arr):
   if (len(arr) < 2):

@@ -1,4 +1,4 @@
-#Given an array of integers (already sorted in ascending order) find and return the indices of the two elements that, when added together, are equal to the provided target value.
+# Given an array of integers (already sorted in ascending order) find and return the indices of the two elements that, when added together, are equal to the provided target value.
 
 def nums_that_sum(arr, sum):
   if len(arr) == 0:

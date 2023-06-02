@@ -1,4 +1,4 @@
-#Write the function flatten which accepts a list (possibly containing other lists) and returns the flattened result of that list.
+# Write the function flatten which accepts a list (possibly containing other lists) and returns the flattened result of that list.
 
 def flatten(lst):
   if len(lst) == 0:

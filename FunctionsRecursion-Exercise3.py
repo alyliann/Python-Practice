@@ -1,4 +1,4 @@
-#Write a recursive function called bunny_ears that takes the number of bunnies (an integer) as a parameter. Return the number of bunny ears (2 per bunny). Do not use multiplication; instead use addition.
+# Write a recursive function called bunny_ears that takes the number of bunnies (an integer) as a parameter. Return the number of bunny ears (2 per bunny). Do not use multiplication; instead use addition.
 
 def bunny_ears(num):
   if num == 0:

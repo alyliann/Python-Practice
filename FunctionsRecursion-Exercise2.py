@@ -1,4 +1,4 @@
-#Write a recursive function called list_sum that takes a list of numbers as a parameter. Return the sum of all of the numbers in the list. Hint, the slice operator will be helpful in solving this problem.
+# Write a recursive function called list_sum that takes a list of numbers as a parameter. Return the sum of all of the numbers in the list. Hint, the slice operator will be helpful in solving this problem.
 
 def list_sum(nums):
   if len(nums) == 1:

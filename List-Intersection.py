@@ -1,4 +1,4 @@
-#Implement a recursive list intersection algorithm. It accepts two lists and returns a list consisting of all elements that are in both lists.
+# Implement a recursive list intersection algorithm. It accepts two lists and returns a list consisting of all elements that are in both lists.
 
 def intersection(list1, list2):
   if len(list1) == 0 or len(list2) == 0:

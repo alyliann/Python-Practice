@@ -1,4 +1,4 @@
-#Write a recursive function called reverse_string that takes a string as a parameter. Return the string in reverse order. Hint, the slice operator will be helpful when solving this problem.
+# Write a recursive function called reverse_string that takes a string as a parameter. Return the string in reverse order. Hint, the slice operator will be helpful when solving this problem.
 
 def reverse_string(str):
   if len(str) == 0:

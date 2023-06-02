@@ -1,4 +1,4 @@
-#Remove duplicates from sorted array
+# Remove duplicates from sorted array
 
 def remove_duplicates(arr):
   if (len(arr) < 2):

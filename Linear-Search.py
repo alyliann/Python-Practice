@@ -1,4 +1,4 @@
-#Implement Linear Search
+# Implement Linear Search
 
 def search(search, find):
   for i in range(len(search)):

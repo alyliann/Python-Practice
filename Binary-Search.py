@@ -1,4 +1,4 @@
-#Implement Binary Search
+# Implement Binary Search
 
 def binary_search(search, find, first_index, last_index):
   if len(search) == 0:

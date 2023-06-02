@@ -1,4 +1,4 @@
-#Write a recursive function called recursive_sum that takes an integer as a parameter. Return the sum of all integers between 0 and the number passed to recursive_sum.
+# Write a recursive function called recursive_sum that takes an integer as a parameter. Return the sum of all integers between 0 and the number passed to recursive_sum.
 
 def recursive_sum(num):
   if num == 1:

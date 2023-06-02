@@ -1,4 +1,4 @@
-#Write a program that accepts a 2D list of zeros. Print the 2D list in rows and columns without the square brackets and commas. Moving diagonally from the top-left to the bottom right, replace each 0 with a 1. The IDE already declares the variable number and the 2D list data. Use number to represent the number of rows and columns, and data to represent the 2D list of zeros.
+# Write a program that accepts a 2D list of zeros. Print the 2D list in rows and columns without the square brackets and commas. Moving diagonally from the top-left to the bottom right, replace each 0 with a 1. The IDE already declares the variable number and the 2D list data. Use number to represent the number of rows and columns, and data to represent the 2D list of zeros.
 
 # FREEZE CODE BEGINS
 import sys
