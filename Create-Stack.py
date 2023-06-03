@@ -1,4 +1,7 @@
 # Fill in the following class DIYStack to create a fully functional stack.
+# For the .pop() and .peek() methods, ensure that your code will return a None value if the stack is empty.
+# For the .allNodesString() method, ensure that you print a visual representation of the stack (i.e. a newline between each element such that the next element to be popped is on “top”).
+# For this implementation, you will need to store each element in a Node so that users can push either fully formed Nodes or other data types onto the stack.
 
 # You are given the below Node class to assist in your implementation.
 class Node:
