@@ -1,5 +1,5 @@
 # Given the head of a singly linked list, reverse the list in-place, and return the reversed list.
-# Complete the function in the given python file
+# Complete the function in the given Python file
 
 class Node:
   def __init__(self, value = None, next = None):
