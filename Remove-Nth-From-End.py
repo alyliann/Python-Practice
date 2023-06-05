@@ -37,7 +37,6 @@ def remove_n_from_end(head_node, n):
   print(prev_node.get_value())
 
   # Remove desired node from Linked List:
-
   if delete_head == True: #if the head_node is the node to delete
     head_node = head_node.next_node()
   else:
