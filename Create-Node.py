@@ -5,9 +5,9 @@
 # Print the name of the node.
 
 class Node:
-  def __init__(self, node_name, next_node):
+  def __init__(self, node_name, next_node = None):
     self.name = node_name
     self.next = next_node
 
-node = Node("Maria", None)
+node = Node("Maria")
 print(node.name)
