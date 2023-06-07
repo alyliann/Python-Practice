@@ -35,10 +35,10 @@ def same_tree(root1, root2):
     if node1.value != node2.value:
       return False
     # if node1 has no child where node2 does:
-    elif (node1.left_child == None and node2.left_child != None) or (node1.right_child == None and node2.left_child != None):
+    elif (node1.left_child == None and node2.left_child != None) or (node1.right_child == None and node2.right_child != None):
       return False
     # if node2 has no child where node1 does:
-    elif (node2.left_child == None and node1.left_child != None) or (node2.right_child == None and node1.left_child != None):
+    elif (node2.left_child == None and node1.left_child != None) or (node2.right_child == None and node1.right_child != None):
       return False
     
     if node1.left_child != None:
@@ -56,7 +56,7 @@ def same_tree(root1, root2):
     return True
 
 
-'''root1 = Node(4)
+root1 = Node(4)
 root1.left_child = Node(2)
 root1.right_child = Node(6)
 root1.left_child.left_child = Node(1)
@@ -68,4 +68,4 @@ root2.right_child = Node(6)
 root2.left_child.left_child = Node(1)
 root2.left_child.right_child = Node(3)
 
-print(same_tree(root1, root2))'''
+print(same_tree(root1, root2))
