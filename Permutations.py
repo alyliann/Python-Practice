@@ -3,20 +3,15 @@
 # Input: nums = [0,1]
 # Output: [[0,1],[1,0]]
 
-def permutations(nums, index=0, current=[]):
-  if len(nums) < 2:
-    return [nums]
-  if index == len(nums):
-    return current
-  
+def permutations(nums, helper=[], current=[]):
+  if not nums:
+    current.append(helper[::])
+
   for i in range(len(nums)):
-    if i == index:
-      continue
-    temp = []
-    temp.append(nums[index])
-    temp.append(nums[i])
-    current.append(temp)
+    helper.append(nums[i])
+    permutations(nums[:i] + nums[i+1:], helper, current)
+    helper.pop(-1)
+    
+  return current
 
-  return permutations(nums, index+1, current)
-
-print(permutations([1,2]))
+print(permutations([1,2,3]))
