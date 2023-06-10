@@ -17,4 +17,4 @@ def combinations(n, k, start=1, current=[]):
 
   return combinations(n, k, start+1, current)
 
-print(combinations(4, 2)) # Expected output: [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]
+print(combinations(4, 2))
