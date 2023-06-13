@@ -9,9 +9,9 @@ def kth_largest(nums, k):
   
   for num in nums:
     if len(min_heap) < k or num > min_heap[0]:
-      min_heap.append(num)
+      heapq.heappush(min_heap, num)
     if len(min_heap) > k:
-      min_heap.pop(0)
+      heapq.heappop(min_heap)
     
   return min_heap[0]
 
