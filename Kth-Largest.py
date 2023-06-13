@@ -5,15 +5,15 @@
 import heapq
 
 def kth_largest(nums, k):
-  max_heap = []
+  min_heap = []
   
   for num in nums:
-    if len(max_heap) < k or num > max_heap[0]:
-      max_heap.append(num)
-    if len(max_heap) > k:
-      max_heap.pop(0)
+    if len(min_heap) < k or num > min_heap[0]:
+      min_heap.append(num)
+    if len(min_heap) > k:
+      min_heap.pop(0)
     
-  return max_heap[0]
+  return min_heap[0]
 
 nums = [3,2,1,5,6,4]
 k = 2
